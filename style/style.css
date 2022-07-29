@@ -1,0 +1,130 @@
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --softMagenta: hsl(300, 69%, 71%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-color: var(--violet);
+    color: white;
+}
+
+.huddle{
+     margin-left:8vh ;
+     width: 30vh;
+     height: 20vh;
+}
+
+
+.head3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+     text-align: justify;
+     font-size: 4vh;
+     margin-bottom: 3vh;
+}
+
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0 0 8vh;
+   
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2vh;
+    padding: 1vh;
+    margin-bottom: 3vh;
+}
+
+.note{
+    margin-left: 5vh;
+    margin-top: -25vh;
+    
+}
+
+.mockup{
+    width: 100vh;
+}
+
+a{
+    border-radius: 13px;
+    background-color: white;
+    padding: 1vh 5vh;
+    text-decoration: none;
+    margin-left: 1vh;
+    font-size: 2vh;
+    color: var(--violet);
+}
+
+
+@media only screen and (max-width: 600px){
+
+body{
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+    .all{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 4vh;
+        display: flex;
+    }
+
+    .huddle{
+        margin-left: 5vh;
+        width: 21vh;
+        height: 14vh;
+   }
+   
+    .mockup{
+        margin-left: 2vh ;
+        width: 80%;
+        height: 40%;
+   }
+
+ .note{
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    width: 80%;
+ }
+
+.head3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    margin: 5vh 1vh 1vh -5vh;
+    
+}
+
+p{
+    margin-top: auto;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3vh 1vh 1vh -5vh
+}
+
+a{
+    margin: 10vh 1vh 1vh -5vh;
+    padding: 1vh 6vh;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--violet);
+}
+.reg{
+    margin-top: 3vh;
+}
+
+}
